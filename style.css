@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   
+}
+*{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+  
+}
+.navbar{
+    position:absolute ;  
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding:20px ;
+    background-color: white;
+    
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+
+   
+   
+    
+}
+.nav-link li{
+    margin:0 30px ;  
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./bangladesh-landscape-nature-tourism.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+   
+}
+.heades-content{
+    margin-bottom: 20%;
+    color: whitesmoke;
+    text-align: center;
+    
+
+}
+.heades-content h2{
+    font-size: 4vmin;
+   
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.heades-content h1{
+    font-size: 5vmin;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.ctn{
+    padding:8px 15px ;
+    background: crimson;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+section{
+    width: 70%;
+    margin: 80px auto;
+    text-align: center;
+    
+    
+
+}
+.title{
+    text-align: center;
+    font-size:4vmin ;
+    color:crimson;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  
+}
+.row.col{
+    display: flex;
+   align-items: center;
+}
+
+.row .col img{
+    width: 80%;
+
+}
+.events .row{
+    margin-top: 50px;
+
+}
+h4{
+    font-size: 3vmin;
+    color:indianred ;
+    margin: 20px auto;
+    text-align: center;
+}
+p{
+    color: rgb(34, 107, 95);
+    padding: 0px 45px ;
+    text-align: justify;
+}
+.events .ctn{
+    margin-top: 30Px;
+}
+
+.explore{
+    width: 1000px;
+    height: 130vh;
+   background-image: url(./bangladesh-sonargaon-rice-fields-beautiful-landscape-country-in-south-asia-lush-vegetation-foliage-desktop-hd-wallpaper-1920×1200-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cxplore-content{
+    width: 60%;
+    padding: 50px;
+    color: rgb(190, 46, 46);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cxplore-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+}
+.cxplore-content p{
+    color: rgb(0, 0, 0);
+}
+.cxplore-content .ctn{
+    margin-top: 30Px;
+}
+.cxplore-content .line{
+    margin-bottom: 50px;
+}
+.content-col{
+    width: 40%;
+}
+.image-col{
+    width: 60%;
+}
+
+.tours.image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.image-gallery img{
+    width: 250px;
+    height: 150px;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: rgb(190, 46, 46);
+
+}
+.content-col.line{
+    margin-left: -3px;
+}
+.content-col p{
+    padding: 0;
+    margin:30px auto ;
+}
+.content-col.ctn{
+    margin-left: 100px;
+}
+.footer {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 100px;
+    margin: 0;
+    background: rgb(63, 119, 156);
+    text-align: center;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}  
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col.social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 30px 75px ;
+
+}
+
+.logo span{
+    color: #e6366e;
+    
+}
